@@ -78,3 +78,31 @@
   transform: translate(-50%, -50%) scale(0.5);
   z-index: 4;
 }
+
+
+nav {
+  background-color: transparent;
+  -webkit-transition: background-color box-shadow 1s;
+  transition: background-color box-shadow 1s;
+}
+
+nav .navbar-toggler:focus,
+nav .navbar-toggler:active,
+nav .navbar-toggler-icon:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+nav .navbar-nav .nav-item {
+  padding: 5px;
+}
+
+nav .navbar-nav .nav-item a {
+  font-weight: 600;
+  color: black;
+}
+
+nav .navbar-nav .nav-item a:hover {
+  color: #6634FF;
+}
